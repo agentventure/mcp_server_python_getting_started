@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Start the MCP server:
 
 ```bash
-python weather.py
+uv run weather.py
 ```
 
 The server will start and communicate via stdio, ready to handle requests from MCP clients.
